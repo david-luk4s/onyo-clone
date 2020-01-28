@@ -1,0 +1,84 @@
+.header{
+  height: auto;
+  max-width:1440px!important;
+}
+.style-j8yv1439label{
+  font: normal normal normal 16px/1.4em wfont_ad1c7a_1c619fe6fbc441728a01bdbc4e8d2bd2,wf_1c619fe6fbc441728a01bdbc4,orig_quicksandregular;
+  transition: color 0.4s ease 0s;
+  color: #808080;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 17px;
+  letter-spacing: .10rem;
+}
+a{color: #000!important;text-decoration: none;}
+
+.style-j8yv1439label:hover{color: #FF6B04;}
+
+.container-fluid.content-laranja{padding-top: 3.5%;}
+
+.parallax{
+  height: 587px;
+  width: 100%;
+  background-image: url("https://static.wixstatic.com/media/ad1c7a_8bb4e1e892fd45c8a5a6e3f5110b5442~mv2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+.container.transbox {
+  position: relative;
+  text-align: center;
+  top: -26.5rem;
+  color: #fff;
+  height: .1px;
+}
+.color_11{
+  color: #fff;
+}
+
+.two-parallax{
+  height: 587px;
+  width: 100%;
+  background-image: url("https://static.wixstatic.com/media/ad1c7a_e0eacb50822d470baeea48f1dd18f3d7~mv2.png/v1/fill/w_1440,h_431,al_c,q_90/ad1c7a_e0eacb50822d470baeea48f1dd18f3d7~mv2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 568px;
+}
+.container.content-transbox {
+  position: relative;
+  top: -31rem;
+  color: #fff;
+  height: .1px;
+}
+
+.content-transbox{
+  padding-left: 3rem!important;
+}
+a.btn.btn-primary:hover{
+  background-color: #521E80!important;
+  border-color: #521E80!important;
+}
+.thre-parallax{
+  height: 587px;
+  width: 100%;
+  background-image: url("https://static.wixstatic.com/media/ad1c7a_9936f17ef2c246bcbcfa132dd26e9b88~mv2.jpg/v1/fill/w_199,h_87,al_c,q_80,usm_0.66_1.00_0.01,blur_2/ad1c7a_9936f17ef2c246bcbcfa132dd26e9b88~mv2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 348px;
+}
+.thre-content-transbox{
+  position: relative;
+  height: .1px;
+  top: -10rem;
+  color:#FF6B04;
+}
+.thre-content-transbox-logos.col-md-12{
+  top: -5rem!important;
+}
+.footer-content{
+  /* margin-top: -1rem!important; */
+}

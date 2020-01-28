@@ -1,0 +1,28 @@
+.header{
+  height: auto;
+  max-width:1440px!important;
+}
+.style-j8yv1439label{
+  font: normal normal normal 16px/1.4em wfont_ad1c7a_1c619fe6fbc441728a01bdbc4e8d2bd2,wf_1c619fe6fbc441728a01bdbc4,orig_quicksandregular;
+  transition: color 0.4s ease 0s;
+  color: #808080;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 17px;
+  letter-spacing: .10rem;
+}
+.style-j8yv1439label:hover{color: #FF6B04;}
+a{color: #000!important;text-decoration: none;}
+
+@media(min-width: 1200px){
+  .container.trabalhe-conosco{
+    max-width: 1460px!important;
+  }
+}
+.border-features{
+  padding:.2rem;
+  border-radius:.3rem;
+  border: 1px solid #808080;
+  font-size: 12px;
+  letter-spacing: .10rem;
+}

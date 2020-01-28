@@ -1,0 +1,70 @@
+<div class="container header fixed-top shadow-sm pt-3 pb-3" style="background-color: #fff;">
+  <ul class="nav justify-content-center">
+    <a routerLink='/' class="navbar-brand pr-4 mr-3">
+      <img src="https://static.wixstatic.com/media/ad1c7a_1b1df0217de54e2cae9e08863cfafc74~mv2.png/v1/crop/x_0,y_30,w_842,h_269/fill/w_144,h_46,al_c,q_85,usm_0.66_1.00_0.01/ad1c7a_1b1df0217de54e2cae9e08863cfafc74~mv2.webp" alt="">
+    </a>
+    <li class="nav-item pt-3 pb-2 pr-4">
+      <a routerLink='/' target="_self" data-keep-roots="true" data-anchor="dataItem-j8x9wv76" id="comp-j8yv142ylink" class="style-j8yv1431link">
+        <span id="comp-j8yv142ylabel" class="style-j8yv1431label">Sobre</span></a>
+    </li>
+    <li class="nav-item pt-3 pb-2 pr-4">
+      <a routerLink='/restaurante' target="_self" id="comp-j8yv1433link" class="style-j8yv1439link">
+        <span id="comp-j8yv1433label" class="style-j8yv1439label">Cadastre seu restaurante</span></a>
+    </li>
+    <li class="nav-item pt-3 pb-2 pr-4">
+      <a routerLink='/trabalhe-conosco' target="_self" id="comp-j8yv143elink" class="style-j8yv1439link">
+        <span id="comp-j8yv143elabel" class="style-j8yv1439label">Trabalhe conosco</span></a>
+    </li>
+    <li class="nav-item pt-3 pb-2 pr-4">
+      <a routerLink='/blog' target="_self" id="comp-jfcvdk80link" class="style-j8yv1439link">
+        <span id="comp-jfcvdk80label" class="style-j8yv1439label">Blog</span></a>
+    </li>
+    <li class="nav-item pt-3 pb-2 pr-4">
+      <a routerLink='/contato' target="_self" id="comp-j8yv143llink" class="style-j8yv1439link">
+        <span id="comp-j8yv143llabel" class="style-j8yv1439label">Contato</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><span style="color:#FF6B04;">PT</span> | EN</a>
+    </li>
+  </ul>
+</div>
+
+<div class="header-content" style="background-color: #f5f5f5;height:88px;width:100%"></div>
+
+
+<div class="container-fluid p-0">
+
+  <div class="container-fluid contato-form pt-5">
+    <div class="container formulario text-center mb-3 pt-3">
+      <span style="line-height:normal;letter-spacing:.5rem;font-weight:600;word-break:break-word;font-family:'Open Sans', sans-serif; font-size:34px;">Fale conosco</span>
+
+      <div class="col-md-12 pt-3">
+        <form class="text-left pt-3">
+          <div class="form-group">
+            <label class="color_10" for="name">Nome *</label>
+            <input type="text" class="form-control" name="name" id="name" aria-describedby="name" [(ngModel)]='contact.name'>
+          </div>
+          <div class="form-group">
+            <label class="color_10" for="email">E-mail *</label>
+            <input type="email" class="form-control" name="email" id="email" [(ngModel)]='contact.email'>
+          </div>
+          <div class="form-group">
+            <label class="color_10" for="assunto">Assunto *</label>
+            <input type="text" class="form-control" name="assunto" id="assunto" [(ngModel)]='contact.assunto'>
+          </div>
+          <div class="form-group">
+            <label class="color_10" for="message">Mensagem</label>
+            <textarea class="form-control" name="message" id="message" rows="5" [(ngModel)]='contact.message'></textarea>
+          </div>
+          <span style="color: #33FF8A;font-family:'Open Sans', sans-serif;">{{status}}</span>
+          <span style="color:#ff3232;font-family:'Open Sans', sans-serif;letter-spacing: 0.16rem;">{{status_error}}</span>
+          <button (click)='saveContact()' type="submit" class="btn btn-primary float-right pr-2 pl-2" style="font-weight: 600;font-size:16px;letter-spacing:.12rem;background-color: #FF6B04;border-color: #FF6B04;">Enviar</button>
+        </form>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="background-image-form"></div>
+</div>
